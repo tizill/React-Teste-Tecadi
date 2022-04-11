@@ -292,15 +292,7 @@ export default function Produto() {
                     <span className="focus-input" data-placeholder="Peso Liquido"></span>
                     </div>
                     <div className="wrap-input">
-                    <p className="option"   data-placeholder="grupo">Grupo</p>
-                    <select onChange={e => setGrupo(e.target.value)} value={grupo} required>
-                        {listGrupo && listGrupo.map((gp, index) => (
-                            <option value={gp} key={index}>{gp}</option>
-                        ))}
-                    </select>
-                    </div>
-                    <div className="wrap-input">
-                    <p className="option"   data-placeholder="um">Grupo</p>
+                    <p className="option"   data-placeholder="um">Um</p>
                     <select onChange={e => setUm(e.target.value)} value={um} required>
                     {listUM && listUM.map((unid, index) => (
                             <option value={unid} key={index}>{unid}</option>
